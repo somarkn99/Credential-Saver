@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Credential Saver</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div id="credential-table">
+    <h3 class="centered-title">Saved Credentials</h3>
+    <div class="social-icons">
+      <a href="https://github.com/somarkn99" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/somarkesen/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.somar-kesen.com/" target="_blank"><i class="fas fa-globe"></i></a>
+    </div>
+    <button id="add-button">Add New</button>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="credentials-list">
+          <!-- Credential rows will be inserted here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="add-credential-form">
+    <h3>Add Credential</h3>
+    <button id="back-button">Back</button>
+    <input id="name" type="text" placeholder="Name" />
+    <input id="email" type="email" placeholder="Email" />
+    <input id="password" type="password" placeholder="Password" />
+    <input id="phone" type="tel" placeholder="Phone Number" />
+    <button id="save">Save</button>
+  </div>
+
+  <div id="edit-credential-form">
+    <h3>Edit Credential</h3>
+    <button id="back-edit-button">Back</button>
+    <input id="edit-name" type="text" placeholder="Name" />
+    <input id="edit-email" type="email" placeholder="Email" />
+    <input id="edit-password" type="password" placeholder="Password" />
+    <input id="edit-phone" type="tel" placeholder="Phone Number" />
+    <button id="update">Update</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
