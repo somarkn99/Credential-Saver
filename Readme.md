@@ -55,6 +55,11 @@ git clone https://github.com/somarkn99/Credential-Saver.git
 
 This project is licensed under the MIT License.
 
+## Credits
+
+- [Somar Kesen](https://github.com/somarkn99)
+- [All Contributors](../../contributors)
+
 ## Contact
 
 For any inquiries or support, please contact:
